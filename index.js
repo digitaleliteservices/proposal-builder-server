@@ -19,7 +19,7 @@ const dashboardRoutes = require("./routes/dashboardRoutes/dashboardRoutes");
 const app = express();
 
 // Fallback port
-const port = process.env.PORT || 12000;
+const port = process.env.PORT || 10500;
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));

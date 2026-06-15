@@ -138,6 +138,10 @@ const proposalSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
+    excludeGST: {
+      type: Boolean,
+      default: false,
+    },
   },
   {
     timestamps: true,
